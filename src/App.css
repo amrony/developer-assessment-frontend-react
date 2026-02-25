@@ -137,6 +137,58 @@ td {
   margin-top: 6px;
 }
 
+.orders-list {
+  display: grid;
+  gap: 14px;
+}
+
+.order-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fff;
+  padding: 14px;
+  box-shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+}
+
+.order-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.order-card-header h3 {
+  margin: 0;
+  color: #111827;
+}
+
+.order-status {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.status-pending {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-confirmed {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.status-cancelled {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.order-items-wrap {
+  margin-top: 10px;
+}
+
 .btn-primary,
 .btn-secondary,
 .btn-danger {

@@ -45,6 +45,13 @@
   color: #111827;
 }
 
+.details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
 .table-wrap {
   background: #ffffff;
   border: 1px solid #e5e7eb;
